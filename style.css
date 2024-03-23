@@ -1,0 +1,331 @@
+/* navbar */
+
+#top_nav{
+    background-color: black !important;
+    padding: 0 8%;
+} 
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox{
+    background-color:  rgba(255, 255, 0, 0.548);
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 24px;
+    box-shadow: 5px 10px 11px #6f6e7770;
+}
+
+.form-control{
+    background-color: yellow;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: blue;
+    color: white;
+    border: 0%;
+    border-radius: 0%;
+
+}
+@media only screen and(max-width: 768px){
+#searchform{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+}
+
+@media only screen and(max-width: 500px){
+
+#top_nav{
+    padding: 0;
+}
+
+
+
+}
+
+
+
+}
+
+
+/* banner */
+#banner{
+    background-color:rgb(219, 219, 80);
+    padding-bottom: 20px;
+}
+
+#bannertext h1{
+color: white;
+font-size: 70px;
+margin-top: 100px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px){
+    #bannertext h1{
+        color: white;
+        font-size: 50px;
+        margin-top: 100px;
+        }
+
+        #banner{
+            padding-bottom: 70px;
+        }
+
+}
+
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+
+
+#service-img{
+    padding: 5%;
+    
+}
+
+#service-btn{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+
+}
+
+@media only screen and (max-width: 768px){
+
+    #service-img{
+        padding-top: 10%;
+        
+    }
+
+}
+
+/*counter */
+ #counter-section{
+    background-image: url("  website.makers.images/Sketche.jpeg   ");
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+.counter-icon{
+    font-size: 70px;
+}
+@media only screen and (max-width:500px){
+    .counter-icon{
+        font-size: 50px;
+    }
+}
+
+#blog{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#blog-title{
+font-size: 45px;
+font-weight: bolder;
+
+}
+
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.artical-detail{
+    padding: 15px;
+    border: 3px solid green;
+
+}
+
+.artical-date, .artical-link{
+    color: #00bec9;
+}
+
+#footer{
+    background-color: #343434;
+    padding-top: 80px;  
+    padding-bottom: 80px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer-search-box{
+background-color: green;
+color: white;
+border: 0%;
+padding: 10px;
+width: 300px;
+max-width: 300px;
+position: relative;
+
+}
+#footer-search-submit{
+background-color: yellow;
+color: black;
+border: 0;
+height: 40px;
+width: 50px;
+border-radius: 0;
+
+}
+.social-icon {
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1150px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button 1 */
+
+#contactBox {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: black;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    z-index: 9999;
+  }
+
+  #closeButton {
+    cursor: pointer;
+    position: absolute;
+     top: 10px; 
+    color: white;
+    right: 8px;
+    font-size: 28px;
+    background-color: green;
+  }
+
+
+/* button 2 */
+
+  
+
+#contact {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: black;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    z-index: 9999;
+  }
+
+/* bitton 3 */
+  
+    
+
+#box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: black;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    z-index: 9999;
+    font-size: 15px;
+  }
+
+  h7{
+color: rgb(140, 140, 219);
+  }
+
+
+
+ 
+
+p2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+ 
+#myBox{
+    background-color: rgb(59, 50, 50);
+    color: white;
+}

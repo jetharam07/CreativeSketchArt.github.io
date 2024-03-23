@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="top_nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+      <img src="website.makers.images/logo-white (1)_page-0001 (1).jpg " style="height: 110px; width: 110px; margin-left: -50px;" alt="">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="mybutton" onclick="toggleBox()" aria-current="page" href="#">About</a>
+              <li id="myBox">  
+                Welcome to Raj's Creative Haven!
+                
+                <br><p3> At Raj, we believe that art is a powerful language that transcends words. This platform is more than just a sketch-making space. it's a sanctuary for artists who are passionate about bringing their visions to life. Whether you're a seasoned illustrator, an emerging artist, or someone taking the first strokes on their artistic journey, you've found a home here. </p3> <br><p2>If you want to hide this box then click on "About" again.  </p2></div>
+            </li>
+
+          
+           
+          </ul>
+          <!-- <form class="d-flex" role="search" id="searchform">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbox">
+            <button class="btn btn-outline-success" type="submit" id="searchbtn"><i class="bi bi-search"></i></button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+
+<!-- container-fluid -->
+<div class="container-fluid">
+
+<!-- banner -->
+<div class="row justify-content-center"  id="banner">
+
+ 
+ 
+ 
+ 
+  <div class="col-md-6 col-11" id="bannertext">
+    <h1>"Artist's hand, a visual poet."</h1>
+    <p>" Sketching is not just about lines: it's is my language and about <br> revealing the soul within the strokes. Through the art of <br>sketching,  I unlock the door to the world of limitless <br> possibilities.  "</p>
+    <button onclick="showContactBox()" class="btn" id="banner-btn-1">Contact Us</button>
+    <button onclick="showContact()" class="btn" id="banner-btn-2">Our Service</button>
+  </div>
+ 
+ 
+ 
+ 
+ 
+  <div class="col-md-4 d-none d-md-block" id="bannerimg">
+      <img src="website.makers.images/WebsiteMakers - Copy.jpg  " style="margin-top: 100px; height: 270px; width: 270px;" alt="">
+  
+</div>
+</div>
+
+
+
+<!-- service -->
+<div class="row justify-content-center">
+  <div class="col-md-5 col-11" id="service-text">
+    <h1> "A silent symphony of <br> creativity."</h1>
+    <p>"Sketching love on the canvas of emotions, each stroke whispers tales untold. The pencil dances with passion, tracing the contours of affection, and the paper becomes a haven for unspoken feelings. In the realm of sketching love, every line is a love letter, every shade a reflection of the heart's palette. It's an artful expression, where feelings find voice in the silent language of strokes."
+    </p>
+    <button  onclick="showBox()"  type="button" class="btn" id="service-btn">Why do we love sketching?</button>
+  </div>
+  <div class="col-md-5 " id="service-img">
+    <img src=" website.makers.images/We - Copy.jpg " style=" margin-top: 10px;" class="img-fluid" alt="">
+  </div>
+
+</div>
+
+<!-- counter -->
+<div class="row justify-content-center text-white " id="counter-section">
+
+
+  <div class="col-md-3 text-center mt-5 mb-50">
+    <i class="bi bi-balloon-heart counter-icon"></i>
+    <h3>+564<br>
+      Happy Clients
+    </h3>
+  </div>
+  <div class="col-md-3 text-center mt-5 mb-3">
+    <i class="bi bi-buildings counter-icon"></i>
+    <h3>+643
+      <br>Orders
+    </h3>
+  </div>
+  <div class="col-md-3 text-center mt-5 mb-3">
+    <i class="bi bi-star-half counter-icon"></i>
+    <h3>195<br>Repeated Client
+    </h3>
+  </div>
+</div>
+
+<!-- blog -->
+<div class="row justify-content-center" id="blog">
+  <div class="col-12 text-center">
+    <h1 id="blog-title">Portfolio Posts</h1>
+    <p id="blog-p">Elevating Excellence: A Showcase of My Diverse <br>Portfolio Achievements</p>
+    
+  </div>
+
+<div class="col-md-3 col-11 mt-4 ">
+  <img src=" website.makers.images/artist - Copy.jpg" style = "height: 255px; width: 315px;" class="img-fluid">
+<div class="artical-detail">
+<h4 class="artical-title">  Masterful Strokes: Capturing Virat Kohli in a Striking Sketch</h4>
+<p class="artical-date">FEBUARY 09,2022</p>
+<p class="artical-desc"> A striking sketch capturing Virat Kohli's dynamic presence and unwavering intensity.</p>
+<p><a href="#" class="artical-link">Read More+</a></p>
+</div>
+</div>
+
+
+<div class="col-md-3 col-11 mt-4 ">
+  <img src=" website.makers.images/sketches.jpeg"  style = "height: 255px; width: 315px;" class="img-fluid" alt="">
+  <div class="artical-detail">
+    <h4 class="artical-title">Albert Einstein or Abraham de Moivre.</h4>
+    <p class="artical-date">APRIL 17,2022</p>
+    <p class="artical-desc">
+      Einstein's iconic visage meets de Moivre's mathematical brilliance in a unique sketch tribute, bridging science and art with every stroke.</p>
+    <p><a href="#" class="artical-link">Read More+</a></p>
+    </div>
+</div>
+
+
+<div class="col-md-3 col-11 mt-4">
+  <img src=" website.makers.images/WebsiteMakers - Copy.jpg " style = "height: 255px; width: 315px;" class="img-fluid">
+  <div class="artical-detail">
+    <h4 class="artical-title">Spiritual Serenity:  Mahatma Gandhi</h4>
+    <p class="artical-date">AUGUST 03,2023</p>
+    <p class="artical-desc">Gandhi's silhouette emerges, capturing the essence of nonviolence and wisdom in a timeless and evocative sketch.</p>
+    <p><a href="#" class="artical-link">Read More+</a></p>
+    </div>
+</div>
+
+
+
+</div>
+
+
+<!-- footer -->
+<div class="row justify-content-center text-white" id="footer">
+<div class="col-md-3 col-11">
+  <h4>About</h4>
+  <a href="">Visual Thinking</a><br>
+  <a href="">  Communication</a><br>
+  <a href=""> Problem Solving </a><br>
+  <a href="">Creativity Catalyst  </a><br>
+  <a href=""> Artistic Expression </a><br>
+
+</div>
+<div class="col-md-2 col-11">
+  <h4>Services</h4>
+  <a href=""> Go on contact us and order</a>
+  <a href=""> Communicate to me</a><br>
+  <a href="">give timeline</a><br>
+  <a href="">get product</a><br>
+  <a href="">do Payment </a><br>
+</div>
+
+<div class="col-md-4 text-end">
+  <h4>Communication</h4>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <!-- <form action="">
+    <input type="text" id="footer-search-box">
+    <button type="submit" id="footer-search-submit"><i class="bi bi-send-arrow-up-fill"></i> </button>
+  </form> -->
+  <i class="bi bi-instagram"></i>
+  <i class="bi bi-facebook"></i>
+  <i class="bi bi-twitter-x"></i> 
+  <i class="bi bi-whatsapp"></i>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Button 1 -->
+
+
+
+<div id="contactBox">
+  <div id="closeButton" onclick="hideContactBox()">&times;</div>
+  <!-- Add your contact form or information here -->
+   <h4> <i class="bi bi-whatsapp"></i>Mobile.Number: 9709213724</h4><br>
+   <h4><i class="bi bi-instagram"></i>Instagram-Id: raj_arts_and_craft</h4><br>
+    <h4>Email Id: rajvardhan611@gmail.com</h4></p>
+</div>
+
+<script>
+  function showContactBox() {
+    document.getElementById('contactBox').style.display = 'block';
+  }
+
+  function hideContactBox() {
+    document.getElementById('contactBox').style.display = 'none';
+  }
+</script>
+
+
+<!-- Button 2 -->
+
+
+<div id="contact">
+  <div id="closeButton" onclick="hideContact()">&times;</div>
+  <!-- Add your contact form or information here -->
+ <p> sketches<br> Portraits <br> Fashion <br> Concepts <br> Characters <br> Storyboards <br>  Events <br>  Pets <br>  Architecture </p>
+</div>
+
+<script>
+  function showContact() {
+    document.getElementById('contact').style.display = 'block';
+  }
+
+  function hideContact() {
+    document.getElementById('contact').style.display = 'none';
+  }
+</script>
+
+<!-- Button 3 -->
+
+
+<div id="box">
+  <div id="closeButton" onclick="hideBox()">&times;</div>
+  <!-- Add your contact form or information here -->
+  <h7>Visual Thinking:</h7><br>
+  Sketching fosters visual thinking, helping to crystallize ideas and concepts more effectively than words alone.
+  
+  
+  <br>
+  <h7>Creativity Catalyst:</h7><br>
+  It sparks creativity, providing a tangible outlet for imagination and a platform to experiment with new ideas.
+  <br>
+  <h7>Memorization and Understanding:</h7><Br>
+  Sketching enhances understanding and aids in memorization by engaging both visual and motor skills.
+
+  <br>
+  <h7>Artistic Expression:</h7><Br>
+  Beyond functionality, sketching is a form of artistic expression, allowing individuals to convey emotions and perspectives uniquely.
+  
+  
+<script>
+  function showBox() {
+    document.getElementById('box').style.display = 'block';
+  }
+
+  function hideBox() {
+    document.getElementById('box').style.display = 'none';
+  }
+</script>
+
+
+<!-- button 4 -->
+
+
+<script>
+  // Function to toggle the visibility of the box
+  function toggleBox() {
+      var box = document.getElementById("myBox");
+      box.style.display = (box.style.display === "none" || box.style.display === "") ? "block" : "none";
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- container-fluid end -->
+
+</div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"/>
+
+ 
+  </body>
+</html>
+
+
+
+
+
+
+<!--wrote this code when modify contact us code.-->
+
+<!-- 
+    
+    <div class="col-md-6 col-11" id="bannertext">
+    <h1>"Artist's hand, a visual poet."</h1>
+    <p>" Sketching is not just about lines: it's is my language and about <br> revealing the soul within the strokes. Through the art of <br>sketching,  I unlock the door to the world of limitless <br> possibilities.  "</p>
+    <button type="button" class="btn" id="banner-btn-1">Contact Us</button>
+    <button type="button" class="btn" id="banner-btn-2">Our Service</button>
+  </div>-->
